@@ -1,0 +1,34 @@
+{
+  "Bot": {
+    "Token": "",
+    "DestekçiToken": [],
+    "MongoURL": "",
+    "Durum": "Coded by kei",
+    "Status": "",
+    "DestekçiDurum": "Coded by kei",
+    "DestekçiStatus": "",
+    "Owners": ["209631461865816064"],
+    "Prefix": []
+  },
+
+  "Server": {
+    "GuildID": ""
+  },
+
+  "Channels":{
+    "VoiceChannelID": ""
+   },
+  
+  "Roles":{
+    "Booster": "",
+    "Jail": "",
+    "YetkiKapatılmayacakRoller": []
+   },
+  
+  "Webhook": {
+    "LogWebhook": {
+      "ID": "",
+      "Token": ""
+    }
+  }
+}
