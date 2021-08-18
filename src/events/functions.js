@@ -11,7 +11,7 @@ module.exports = async(client, cfg, moment, Discord, request) => {
          color: client.Colors[Math.floor(Math.random() * client.Colors.length)],}}}
    
    client.logSend = (content) => {
-     const logEmbed = new Discord.MessageEmbed().setThumbnail(client.guilds.cache.get(cfg.Server.GuildID).iconURL({dynamic: true})).setDescription(content).setAuthor(client.guilds.cache.get(cfg.Server.GuildID).name, client.guilds.cache.get(cfg.Server.GuildID).iconURL({dynamic: true})).setColor(client.vegasRenkler[Math.floor(Math.random() * client.vegasRenkler.length)])
+     const logEmbed = new Discord.MessageEmbed().setThumbnail(client.guilds.cache.get(cfg.Server.GuildID).iconURL({dynamic: true})).setDescription(content).setAuthor(client.guilds.cache.get(cfg.Server.GuildID).name, client.guilds.cache.get(cfg.Server.GuildID).iconURL({dynamic: true})).setColor(client.Colors[Math.floor(Math.random() * client.vegasRenkler.length)])
      Log.send(logEmbed).catch(() => { })}
   
   client.timemessage = (content, Channel, timeout) => {
